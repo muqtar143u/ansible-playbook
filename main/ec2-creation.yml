@@ -33,7 +33,7 @@
          image: ami-0d5eff06f840b45e9
          wait: yes
          wait_timeout: 500
-         count:3
+         count: 3
          instance_tags:
            Name: AWS-Ansible
          volumes:
